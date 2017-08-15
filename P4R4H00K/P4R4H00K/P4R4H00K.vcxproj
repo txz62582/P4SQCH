@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{70E9B082-CD38-4B80-BF92-1EC7CDE75DE6}</ProjectGuid>
+    <RootNamespace>P4R4H00K</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <ProjectName>P4R4H00K</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(VC_IncludePath);$(WindowsSDK_IncludePath);$(DXSDK_DIR)Include;C:\Program Files (x86)\Visual Leak Detector\include</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);$(NETFXKitsDir)Lib\um\x86;$(DXSDK_DIR)Lib\$(PlatformShortName);C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib</LibraryPath>
+    <TargetName>P4R4H00K</TargetName>
+    <OutDir>..\Debug</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(VC_IncludePath);$(WindowsSDK_IncludePath);$(DXSDK_DIR)Include</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);$(NETFXKitsDir)Lib\um\x86;$(DXSDK_DIR)Lib\$(PlatformShortName);C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib</LibraryPath>
+    <TargetName>P4R4H00K</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>C:\Program Files %28x86%29\Visual Leak Detector\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Antiaim\Antiaim.cpp" />
+    <ClCompile Include="CAutoWall.cpp" />
+    <ClCompile Include="CFixMove.cpp" />
+    <ClCompile Include="CLagCompensation2.cpp" />
+    <ClCompile Include="CPredictionSystem.cpp" />
+    <ClCompile Include="CreateMove.cpp" />
+    <ClCompile Include="D3DX9.cpp" />
+    <ClCompile Include="DidSmokeEffect.cpp" />
+    <ClCompile Include="DllMain.cpp" />
+    <ClCompile Include="DoPostScreenSpaceEffects.cpp" />
+    <ClCompile Include="DrawManager.cpp" />
+    <ClCompile Include="DrawModelExecute.cpp" />
+    <ClCompile Include="FireEventCS.cpp" />
+    <ClCompile Include="FrameStageNotify.cpp" />
+    <ClCompile Include="imgui\DX9\imgui_impl_dx9.cpp" />
+    <ClCompile Include="imgui\imgui.cpp" />
+    <ClCompile Include="imgui\imgui_demo.cpp" />
+    <ClCompile Include="imgui\imgui_draw.cpp" />
+    <ClCompile Include="Misc.cpp" />
+    <ClCompile Include="NetvarManager.cpp" />
+    <ClCompile Include="OnScreenSizeChanged.cpp" />
+    <ClCompile Include="OverrideView.cpp" />
+    <ClCompile Include="P4DrawManager.cpp" />
+    <ClCompile Include="P4Menu\P4Menu.cpp" />
+    <ClCompile Include="P4Menu\Config.cpp" />
+    <ClCompile Include="PaintTraverse.cpp" />
+    <ClCompile Include="ServerRankReveal.cpp" />
+    <ClCompile Include="SetClanTag.cpp" />
+    <ClCompile Include="SetName.cpp" />
+    <ClCompile Include="SqchMenu\Menu.cpp" />
+    <ClCompile Include="SqchSDK\ConVar.cpp" />
+    <ClCompile Include="SqchSDK\CRC.cpp" />
+    <ClCompile Include="SqchSDK\SDK.cpp" />
+    <ClCompile Include="SqchSDK\Vector.cpp" />
+    <ClCompile Include="SqchSDK\VMatrix.cpp" />
+    <ClCompile Include="TraceRay.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Antiaim\Antiaim.h" />
+    <ClInclude Include="CAutoWall.h" />
+    <ClInclude Include="CFixMove.h" />
+    <ClInclude Include="CLagCompensation2.h" />
+    <ClInclude Include="CPredictionSystem.h" />
+    <ClInclude Include="DrawManager.h" />
+    <ClInclude Include="EntityManager.h" />
+    <ClInclude Include="Event.h" />
+    <ClInclude Include="Hooks.h" />
+    <ClInclude Include="Includes.h" />
+    <ClInclude Include="Misc.h" />
+    <ClInclude Include="imgui\DX9\imgui_impl_dx9.h" />
+    <ClInclude Include="imgui\imconfig.h" />
+    <ClInclude Include="imgui\imgui.h" />
+    <ClInclude Include="imgui\imgui_internal.h" />
+    <ClInclude Include="imgui\stb_rect_pack.h" />
+    <ClInclude Include="imgui\stb_textedit.h" />
+    <ClInclude Include="imgui\stb_truetype.h" />
+    <ClInclude Include="NetvarManager.h" />
+    <ClInclude Include="P4DrawManager.h" />
+    <ClInclude Include="P4Menu\Config.h" />
+    <ClInclude Include="P4Menu\Options.h" />
+    <ClInclude Include="P4Menu\P4Menu.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="SqchMenu\Menu.h" />
+    <ClInclude Include="SqchSDK\AllDef.h" />
+    <ClInclude Include="SqchSDK\CHandle.h" />
+    <ClInclude Include="SqchSDK\CInput.h" />
+    <ClInclude Include="SqchSDK\ClientClass.h" />
+    <ClInclude Include="SqchSDK\Color.h" />
+    <ClInclude Include="SqchSDK\ConVar.h" />
+    <ClInclude Include="SqchSDK\CPrediction.h" />
+    <ClInclude Include="SqchSDK\CRC.h" />
+    <ClInclude Include="SqchSDK\CUtlVector.h" />
+    <ClInclude Include="SqchSDK\CViewSetup.h" />
+    <ClInclude Include="SqchSDK\CWeaponInfo.h" />
+    <ClInclude Include="SqchSDK\GlowOutlineEffect.h" />
+    <ClInclude Include="SqchSDK\IBaseClientDLL.h" />
+    <ClInclude Include="SqchSDK\IClientEntity.h" />
+    <ClInclude Include="SqchSDK\IClientEntityList.h" />
+    <ClInclude Include="SqchSDK\IClientMode.h" />
+    <ClInclude Include="SqchSDK\IClientNetworkable.h" />
+    <ClInclude Include="SqchSDK\ICollideable.h" />
+    <ClInclude Include="SqchSDK\ICvar.h" />
+    <ClInclude Include="SqchSDK\IEngineTrace.h" />
+    <ClInclude Include="SqchSDK\IGameEvents.h" />
+    <ClInclude Include="SqchSDK\IGameMovement.h" />
+    <ClInclude Include="SqchSDK\IGlobalVarsBase.h" />
+    <ClInclude Include="SqchSDK\IHandleEntity.h" />
+    <ClInclude Include="SqchSDK\IMaterial.h" />
+    <ClInclude Include="SqchSDK\IMaterialSystem.h" />
+    <ClInclude Include="SqchSDK\IMDLCache.h" />
+    <ClInclude Include="SqchSDK\IMoveHelper.h" />
+    <ClInclude Include="SqchSDK\INetChannelInfo.h" />
+    <ClInclude Include="SqchSDK\IPanel.h" />
+    <ClInclude Include="SqchSDK\IPhysicsSurfaceProps.h" />
+    <ClInclude Include="SqchSDK\ISurface.h" />
+    <ClInclude Include="SqchSDK\IVDebugOverlay.h" />
+    <ClInclude Include="SqchSDK\IVEngineClient.h" />
+    <ClInclude Include="SqchSDK\IVModelInfo.h" />
+    <ClInclude Include="SqchSDK\IVModelRender.h" />
+    <ClInclude Include="SqchSDK\IVRenderView.h" />
+    <ClInclude Include="SqchSDK\Misc.h" />
+    <ClInclude Include="SqchSDK\PlayerInfo.h" />
+    <ClInclude Include="SqchSDK\QAngle.h" />
+    <ClInclude Include="SqchSDK\Recv.h" />
+    <ClInclude Include="SqchSDK\SDK.h" />
+    <ClInclude Include="SqchSDK\Studio.h" />
+    <ClInclude Include="SqchSDK\Utils.h" />
+    <ClInclude Include="SqchSDK\Vector.h" />
+    <ClInclude Include="SqchSDK\VMatrix.h" />
+    <ClInclude Include="Utils.h" />
+    <ClInclude Include="VTableFuncHooks.h" />
+    <ClInclude Include="xorstr.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imgui\.travis.yml" />
+    <None Include="imgui\LICENSE" />
+    <None Include="imgui\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="P4R4H00K.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\..\..\..\..\..\..\..\Données\Téléchargements\hitsound.wav" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

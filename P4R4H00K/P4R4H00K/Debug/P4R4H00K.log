@@ -1,0 +1,28 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  PaintTraverse.cpp
+f:\it&hacking\cheats\csgo\p4r4h00k-cheat\full version\p4r4h00k-gui&secured\p4r4h00k\p4r4h00k\sqchsdk\color.h(52): warning C4333: '>>' : décalage vers la droite trop important, perte de données
+f:\it&hacking\cheats\csgo\p4r4h00k-cheat\full version\p4r4h00k-gui&secured\p4r4h00k\p4r4h00k\sqchsdk\color.h(53): warning C4333: '>>' : décalage vers la droite trop important, perte de données
+f:\it&hacking\cheats\csgo\p4r4h00k-cheat\full version\p4r4h00k-gui&secured\p4r4h00k\p4r4h00k\sqchsdk\color.h(54): warning C4333: '>>' : décalage vers la droite trop important, perte de données
+f:\it&hacking\cheats\csgo\p4r4h00k-cheat\full version\p4r4h00k-gui&secured\p4r4h00k\p4r4h00k\entitymanager.h(111): warning C4800: 'int' : valeur forcée à la valeur booléenne 'true' ou 'false' (avertissement sur les performances)
+f:\it&hacking\cheats\csgo\p4r4h00k-cheat\full version\p4r4h00k-gui&secured\p4r4h00k\p4r4h00k\entitymanager.h(115): warning C4244: 'initialisation' : conversion de 'uint32_t' en 'float', perte possible de données
+f:\it&hacking\cheats\csgo\p4r4h00k-cheat\full version\p4r4h00k-gui&secured\p4r4h00k\p4r4h00k\entitymanager.h(116): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
+f:\it&hacking\cheats\csgo\p4r4h00k-cheat\full version\p4r4h00k-gui&secured\p4r4h00k\p4r4h00k\entitymanager.h(126): warning C4244: 'initialisation' : conversion de 'uint32_t' en 'float', perte possible de données
+f:\it&hacking\cheats\csgo\p4r4h00k-cheat\full version\p4r4h00k-gui&secured\p4r4h00k\p4r4h00k\entitymanager.h(127): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
+f:\it&hacking\cheats\csgo\p4r4h00k-cheat\full version\p4r4h00k-gui&secured\p4r4h00k\p4r4h00k\entitymanager.h(270): warning C4244: 'initialisation' : conversion de 'uint32_t' en 'float', perte possible de données
+f:\it&hacking\cheats\csgo\p4r4h00k-cheat\full version\p4r4h00k-gui&secured\p4r4h00k\p4r4h00k\entitymanager.h(271): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
+f:\it&hacking\cheats\csgo\p4r4h00k-cheat\full version\p4r4h00k-gui&secured\p4r4h00k\p4r4h00k\clagcompensation2.h(69): warning C4005: 'TIME_TO_TICKS' : redéfinition de macro
+  f:\it&hacking\cheats\csgo\p4r4h00k-cheat\full version\p4r4h00k-gui&secured\p4r4h00k\p4r4h00k\includes.h(16): note: voir la définition précédente de 'TIME_TO_TICKS'
+f:\it&hacking\cheats\csgo\p4r4h00k-cheat\full version\p4r4h00k-gui&secured\p4r4h00k\p4r4h00k\painttraverse.cpp(52): warning C4018: '<' : incompatibilité signed/unsigned
+f:\it&hacking\cheats\csgo\p4r4h00k-cheat\full version\p4r4h00k-gui&secured\p4r4h00k\p4r4h00k\painttraverse.cpp(75): warning C4244: 'argument' : conversion de 'SSDK::vec_t' en 'int', perte possible de données
+f:\it&hacking\cheats\csgo\p4r4h00k-cheat\full version\p4r4h00k-gui&secured\p4r4h00k\p4r4h00k\painttraverse.cpp(165): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
+f:\it&hacking\cheats\csgo\p4r4h00k-cheat\full version\p4r4h00k-gui&secured\p4r4h00k\p4r4h00k\painttraverse.cpp(251): warning C4244: 'argument' : conversion de 'SSDK::vec_t' en 'int', perte possible de données
+f:\it&hacking\cheats\csgo\p4r4h00k-cheat\full version\p4r4h00k-gui&secured\p4r4h00k\p4r4h00k\painttraverse.cpp(259): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+f:\it&hacking\cheats\csgo\p4r4h00k-cheat\full version\p4r4h00k-gui&secured\p4r4h00k\p4r4h00k\painttraverse.cpp(278): warning C4244: 'argument' : conversion de 'SSDK::vec_t' en 'int', perte possible de données
+f:\it&hacking\cheats\csgo\p4r4h00k-cheat\full version\p4r4h00k-gui&secured\p4r4h00k\p4r4h00k\painttraverse.cpp(282): warning C4244: 'argument' : conversion de 'SSDK::vec_t' en 'int', perte possible de données
+f:\it&hacking\cheats\csgo\p4r4h00k-cheat\full version\p4r4h00k-gui&secured\p4r4h00k\p4r4h00k\painttraverse.cpp(296): warning C4244: 'argument' : conversion de 'SSDK::vec_t' en 'int', perte possible de données
+f:\it&hacking\cheats\csgo\p4r4h00k-cheat\full version\p4r4h00k-gui&secured\p4r4h00k\p4r4h00k\painttraverse.cpp(313): warning C4244: 'argument' : conversion de 'SSDK::vec_t' en 'int', perte possible de données
+f:\it&hacking\cheats\csgo\p4r4h00k-cheat\full version\p4r4h00k-gui&secured\p4r4h00k\p4r4h00k\painttraverse.cpp(350): warning C4244: 'initialisation' : conversion de 'const int' en 'float', perte possible de données
+f:\it&hacking\cheats\csgo\p4r4h00k-cheat\full version\p4r4h00k-gui&secured\p4r4h00k\p4r4h00k\painttraverse.cpp(360): warning C4244: 'argument' : conversion de 'SSDK::vec_t' en 'int', perte possible de données
+f:\it&hacking\cheats\csgo\p4r4h00k-cheat\full version\p4r4h00k-gui&secured\p4r4h00k\p4r4h00k\painttraverse.cpp(369): warning C4244: 'argument' : conversion de 'SSDK::vec_t' en 'int', perte possible de données
+  P4R4H00K.vcxproj -> F:\IT&Hacking\CHEATS\CSGO\P4R4H00K-CHEAT\FULL VERSION\P4R4H00K-GUI&SECURED\P4R4H00K\P4R4H00K\..\Debug\P4R4H00K.dll
+  P4R4H00K.vcxproj -> ..\Debug\P4R4H00K.pdb (Partial PDB)
